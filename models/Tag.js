@@ -4,6 +4,8 @@ const sequelize = require('../config/connection.js');
 
 class Tag extends Model {}
 
+//For the tag class, the following attributes are defined.
+
 Tag.init(
   {
     id:{

@@ -1,2 +1,53 @@
-# e-commerce-backend
-The backend portion of an e-commerce site.
+# E-commerce-backend
+
+## Description
+The purpose of this project was to test functionality of the Object Relational Mapping package "[Sequelize](https://sequelize.org/)", and utilize it while developing a [MySQL](https://www.mysql.com/) database for backend code, as one might find being used for a retail store. 
+
+The code written is not deployed, and cannot be operated by simple means. A walkthrough of the code can be viewed on Youtube [here.]() An instructional guide on how to download and run this code will be featured in the installation section, if running this code on your own personal source-code editor. 
+
+For this project, I utilized [Visual Studio Code](https://code.visualstudio.com/) on a computer running Windows 10. 
+
+This project has several dependencies that will render it functionless if not installed correctly. Those are:
+- Dotenv at version 8.2.0
+- Express at version 4.17.1
+- MySQL2 at version 2.1.0
+- Sequelize at version 5.21.7
+
+Additionally, Node.js was used to seed the database and connect to the server. Insomnia was used to test pathways and functionality of the code as well. 
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+Installation is NOT recommended for this code due to the number of dependencies and additional software needed to function correctly. The instructions will be provided regardless.
+
+1. Ensure you have Node.js and MySQL installed on your computer.
+2. Copy the code from this GitHub repository and clone it to your preferred destination.
+3. Install the required node packages listed in the description.
+4. Create a .env file, which will contain the following code:
+```
+DB_NAME='ecommerce_db'
+DB_USER=''
+DB_PASSWORD=''
+```
+Populate those fields with the appropriate credentials. The "user" field may be root or dev. The password field is your password that you use to sign into MySQL. 
+
+5. Run the following MySQL Commands:
+```
+1. mysql -u [user] -p
+2. [password]
+3. SOURCE ./db/schema.sql;
+```
+
+6. Open an additional terminal instance and run node.js first on your /seeds folder, and then on your server.js file.
+
+7. Using insomnia, test the various paths found in the /routes folder.
+
+## Usage
+
+
+
+
