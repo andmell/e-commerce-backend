@@ -3,7 +3,9 @@
 ## Description
 The purpose of this project was to test functionality of the Object Relational Mapping package "[Sequelize](https://sequelize.org/)", and utilize it while developing a [MySQL](https://www.mysql.com/) database for backend code, as one might find being used for a retail store. 
 
-The code written is not deployed, and cannot be operated by simple means. A walkthrough of the code can be viewed on Youtube [here.]() An instructional guide on how to download and run this code will be featured in the installation section, if running this code on your own personal source-code editor. 
+The code written is not deployed, and cannot be operated by simple means. A walkthrough of the code can be viewed on Youtube [here.](https://youtu.be/VYazgZfIqCE) An instructional guide on how to download and run this code will be featured in the installation section, if running this code on your own personal source-code editor. 
+
+[![A link to a YouTube video showcasing how to use the code in this project.](https://img.youtube.com/vi/VYazgZfIqCE/0.jpg)](https://www.youtube.com/watch?v=VYazgZfIqCE)
 
 For this project, I utilized [Visual Studio Code](https://code.visualstudio.com/) on a computer running Windows 10. 
 
