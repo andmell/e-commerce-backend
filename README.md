@@ -1,5 +1,5 @@
 # E-commerce-backend
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
 The purpose of this project was to test functionality of the Object Relational Mapping package "[Sequelize](https://sequelize.org/)", and utilize it while developing a [MySQL](https://www.mysql.com/) database for backend code, as one might find being used for a retail store. 
 
@@ -47,7 +47,21 @@ Populate those fields with the appropriate credentials. The "user" field may be 
 7. Using insomnia, test the various paths found in the /routes folder.
 
 ## Usage
+Once properly installed, navigate through Insomnia to retrieve, post, update, and delete data from the seeded database. All necessary attributes needed to post new data to the database are provided within the code. Be sure to be using the correct path in order to navigate through the Insomnia interface. The example below is using a GET request on the path:
+```
+http://localhost:3001/api/categories
+```
+![An image of the Insomnia application. A request has been made to http://localhost:3001/api/categories, and the data received are various retail clothing items, such as hats and shirts, and their database metadata.](/assets/insomnia%20example.PNG)
 
+Be sure to familiarize yourself with the respective paths to better navigate through the application.
+
+## Credits
+Jude Clark, a tutor found through Washington University's Web Developer Bootcamp Program, was instrumental in developing this code. 
+
+This code was developed through Washington University's Web Development Bootcamp Program.
+
+## License
+This application is utilizing the MIT License. Please refer to the respective [GitHub repository](https://github.com/andmell/Company-Content-Management-System) for further information.
 
 
 
